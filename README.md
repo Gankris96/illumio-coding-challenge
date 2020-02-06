@@ -41,5 +41,5 @@ python3 firewall-rule-engine.py <csv_file>
 ```
 
 # My take aways from this project 
-I learnt about in-memory databases in python while exploring approaches to solve this problem. I think this is a really cool feature. I also learnt from the `sqllite3` documentation that the db connections can be cached in files and re-loaded. 
+I learnt about in-memory databases in python while exploring approaches to solve this problem. I think this is a really cool feature. I also learnt from the `sqlite3` documentation that the db connections can be cached in files and re-loaded. 
 In my opinion this makes it a wonderful tool to use while building Firewalls where the rule set does not change too frequently. In case the Firewall server needs to be restarted, the rules can be loaded instantly from the cached file making it faster and reusable.
