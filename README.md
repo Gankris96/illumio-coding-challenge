@@ -16,6 +16,8 @@ This simplified my implementation and made it really easy to code.
 
 I created a separate csv file `my_csv_input_file.csv` which contains certain border cases that I could think of and ran the code with certain queries to test for corner cases. It seemed to work well.
 
+With more time I would have liked to write more extensive unit tests and performance tests to make the program more robust and measure performace.
+
 # Performance
 
 I created a csv file with several rules (close to 10000) by using MS Excel to generate some rules. I was able to load the table in under 5 seconds and queries were really performant with results being returned within 1 second for a batch of 50 queries.
